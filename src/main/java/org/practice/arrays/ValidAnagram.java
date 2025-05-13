@@ -1,4 +1,4 @@
-package org.practice.strings;
+package org.practice.arrays;
 
 import java.util.HashMap;
 
