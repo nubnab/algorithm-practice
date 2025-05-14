@@ -27,7 +27,7 @@ class EncodeAndDecodeStringsTest {
         List<String> singleString = List.of("neet");
         List<String> stringsWithSpaces = Arrays.asList("ne  et","c ode","lo  ve","yo u");
         List<String> specialCharacters = Arrays.asList("ne(*$&Q(*et","cod!@#)(*!@#e","lov12(*#@&^e","yo$#()*u");
-        
+
         return Stream.of(
                 Arguments.of(normalCase),
                 Arguments.of(emptyString),
